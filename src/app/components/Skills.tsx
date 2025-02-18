@@ -1,7 +1,7 @@
 // components/Skills.tsx
 "use client";
-import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaNodeJs, FaGitAlt, FaVuejs } from "react-icons/fa";
-import { SiNextdotjs, SiTailwindcss, SiMysql, SiFirebase, SiFlutter } from "react-icons/si";
+import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaGitAlt, FaVuejs } from "react-icons/fa";
+import { SiNextdotjs, SiTailwindcss, SiMysql, SiFirebase, SiFlutter, SiTypescript } from "react-icons/si";
 import { motion } from "framer-motion";
 
 const skills = [
@@ -11,7 +11,7 @@ const skills = [
   { icon: <FaReact className="text-4xl text-blue-400" />, name: "React", level: "Intermediate" },
   { icon: <SiNextdotjs className="text-4xl text-gray-900 dark:text-white" />, name: "Next.js", level: "Intermediate" },
   { icon: <SiTailwindcss className="text-4xl text-teal-400" />, name: "Tailwind CSS", level: "Experienced" },
-  { icon: <FaNodeJs className="text-4xl text-green-500" />, name: "Node.js", level: "Beginner" },
+  { icon: <SiTypescript className="text-4xl text-green-500" />, name: "Typescript", level: "Intermediate" },
   { icon: <SiMysql className="text-4xl text-blue-600" />, name: "MySQL", level: "Intermediate" },
   { icon: <SiFirebase className="text-4xl text-orange-400" />, name: "Firebase", level: "Intermediate" },
   { icon: <FaGitAlt className="text-4xl text-red-500" />, name: "Git", level: "Experienced" },
