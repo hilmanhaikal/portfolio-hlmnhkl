@@ -11,7 +11,7 @@ Icons: React Icons
 🚀 Getting Started
 To run the project locally:
 
-git clone [[https://github.com/your-username/your-portfolio.git](https://github.com/hilmanhaikal/portfolio-hlmnhkl.git)](https://github.com/hilmanhaikal/portfolio-hlmnhkl.git)
+git clone (https://github.com/hilmanhaikal/portfolio-hlmnhkl.git)
 cd your-portfolio  
 npm install  
 npm run dev  
