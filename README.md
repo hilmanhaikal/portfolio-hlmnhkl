@@ -1,9 +1,16 @@
+<<<<<<< HEAD
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+=======
+🚀 Hilman Haikal – Portfolio
+
+This is my personal portfolio website, built with Next.js 14 and styled using Tailwind CSS. It showcases my work, skills, and projects in a modern and minimalistic design.
+>>>>>>> e762ec96317f13f5bc86714f72d0106da2eb5978
 
 ## Getting Started
 
 First, run the development server:
 
+<<<<<<< HEAD
 ```bash
 npm run dev
 # or
@@ -13,6 +20,13 @@ pnpm dev
 # or
 bun dev
 ```
+=======
+git clone (https://github.com/hilmanhaikal/portfolio-hlmnhkl.git)
+
+cd your-portfolio  
+npm install  
+npm run dev  
+>>>>>>> e762ec96317f13f5bc86714f72d0106da2eb5978
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
