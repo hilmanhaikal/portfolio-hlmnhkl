@@ -11,9 +11,9 @@ export default function Hero() {
         transition={{ duration: 0.8, ease: "easeOut" }}
         className="text-4xl md:text-6xl font-bold text-gray-900 dark:text-white"
       >
-        Hi, I'm <span className="text-blue-600 dark:text-blue-400">Hilman Haikal</span>
+        Hi, {`I'm`} <span className="text-blue-600 dark:text-blue-400">Hilman Haikal</span>
       </motion.h1>
-      
+
       <motion.p
         initial={{ opacity: 0, y: 10 }}
         animate={{ opacity: 1, y: 0 }}
@@ -43,7 +43,7 @@ export default function Hero() {
           download="Hilman_Haikal_Resume.pdf"
           className="px-6 py-3 bg-gray-200 dark:bg-gray-700 text-gray-900 dark:text-white rounded-lg text-lg font-semibold shadow-md hover:bg-gray-300 dark:hover:bg-gray-600 transition"
         >
-          Let’s Work Together
+          {`Let’s Work Together`}
         </a>
       </motion.div>
     </section>

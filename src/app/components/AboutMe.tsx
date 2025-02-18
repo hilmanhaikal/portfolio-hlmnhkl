@@ -33,10 +33,11 @@ export default function About() {
         >
           <h2 className="text-4xl font-bold text-gray-800 dark:text-white">About Me</h2>
           <p className="text-lg text-gray-600 dark:text-gray-400 mt-6 leading-relaxed">
-            I'm a <strong>frontend developer</strong> and <strong>UI/UX Designer</strong> passionate about crafting modern, user-friendly interfaces.
+            {`I'm a`} <strong>frontend developer</strong> and <strong>UI/UX Designer</strong> passionate about crafting modern, user-friendly interfaces.
           </p>
           <p className="text-lg text-gray-600 dark:text-gray-400 mt-4 leading-relaxed">
-            I specialize in <strong>Next.js, Tailwind CSS, and UI/UX design</strong>, creating digital experiences that are both <strong>functional and visually appealing</strong>.
+            {`I specialize in `} <strong>Next.js, Tailwind CSS, and UI/UX design</strong>, {`creating digital experiences that are both `} 
+            <strong>functional and visually appealing</strong>.
           </p>
         </motion.div>
       </div>

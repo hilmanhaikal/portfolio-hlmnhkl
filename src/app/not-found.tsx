@@ -24,7 +24,7 @@ export default function NotFound() {
       >
         Oops! Looks like you got lost in the void. 🚀  
         <br />
-        (And no, I'm not uploading this code to my GitHub.)
+        (And no, {`I'm`} not uploading this code to my GitHub.)
       </motion.p>
 
       {/* Home Button */}
