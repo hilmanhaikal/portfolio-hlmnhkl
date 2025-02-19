@@ -44,7 +44,7 @@ export default function Hero() {
         <a
           href="#projects"
           onClick={handleSmoothScroll} // Call smooth scroll function
-          className="px-6 py-3 !text-white bg-blue-600 dark:bg-blue-500 rounded-lg text-lg font-semibold shadow-md hover:bg-blue-700 dark:hover:bg-blue-400 transition"
+          className="px-6 py-3 !text-white bg-blue-600 dark:bg-blue-500 rounded-full text-lg font-semibold shadow-md hover:bg-blue-700 dark:hover:bg-blue-400 transition"
         >
           View My Work
         </a>
@@ -53,7 +53,7 @@ export default function Hero() {
         <a
           href="/RESUME_MUHAMMAD HILMAN HAIKAL.pdf" // Ensure the file is inside the public/ folder
           download="Hilman_Haikal_Resume.pdf"
-          className="px-6 py-3 bg-gray-200 dark:bg-gray-700 text-gray-900 dark:text-white rounded-lg text-lg font-semibold shadow-md hover:bg-gray-300 dark:hover:bg-gray-600 transition"
+          className="px-6 py-3 bg-gray-200 dark:bg-gray-700 text-gray-900 dark:text-white rounded-full text-lg font-semibold shadow-md hover:bg-gray-300 dark:hover:bg-gray-600 transition"
         >
           {`Let’s Work Together`}
         </a>
