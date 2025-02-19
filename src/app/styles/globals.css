@@ -38,3 +38,40 @@ a:hover {
   @apply text-gray-600 dark:text-gray-400;
 }
 
+@keyframes float {
+  0% { transform: translateY(0px) translateX(0px) rotate(0deg); }
+  50% { transform: translateY(-20px) translateX(15px) rotate(15deg); }
+  100% { transform: translateY(0px) translateX(0px) rotate(0deg); }
+}
+
+.blob {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  filter: blur(80px);
+  animation: float 8s infinite ease-in-out;
+}
+
+.blob-1 {
+  background-color: rgba(72, 187, 120, 0.4);
+  top: 10%;
+  left: 20%;
+  animation-duration: 10s;
+}
+
+.blob-2 {
+  background-color: rgba(59, 130, 246, 0.4);
+  top: 40%;
+  left: 60%;
+  animation-duration: 12s;
+}
+
+.blob-3 {
+  background-color: rgba(239, 68, 68, 0.4);
+  top: 70%;
+  left: 30%;
+  animation-duration: 14s;
+}
+
+

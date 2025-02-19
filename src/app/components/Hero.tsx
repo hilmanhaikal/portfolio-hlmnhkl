@@ -1,6 +1,5 @@
 "use client";
 import { motion } from "framer-motion";
-import WaveBackground from "./WaveBackground";
 
 export default function Hero() {
   // Smooth scroll function
@@ -10,11 +9,9 @@ export default function Hero() {
       projectsSection.scrollIntoView({ behavior: "smooth", block: "start" });
     }
   };
-  
 
   return (
     <section className="min-h-screen flex flex-col justify-center items-center text-center px-6 md:px-16">
-      <WaveBackground />
       <motion.h1
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
