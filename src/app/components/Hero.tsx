@@ -1,9 +1,18 @@
-// components/Hero.tsx
 "use client";
 import { motion } from "framer-motion";
 import WaveBackground from "./WaveBackground";
 
 export default function Hero() {
+  // Smooth scroll function
+  const handleSmoothScroll = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
+    e.preventDefault();
+    const target = document.getElementById("projects");
+    if (target) {
+      target.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+  };
+  
+
   return (
     <section className="min-h-screen flex flex-col justify-center items-center text-center px-6 md:px-16">
       <WaveBackground />
@@ -31,9 +40,10 @@ export default function Hero() {
         transition={{ duration: 0.8, ease: "easeOut", delay: 0.4 }}
         className="mt-6 flex flex-col sm:flex-row gap-4"
       >
-        {/* View My Work Button */}
+        {/* View My Work Button (Smooth Scroll) */}
         <a
           href="#projects"
+          onClick={handleSmoothScroll} // Call smooth scroll function
           className="px-6 py-3 !text-white bg-blue-600 dark:bg-blue-500 rounded-lg text-lg font-semibold shadow-md hover:bg-blue-700 dark:hover:bg-blue-400 transition"
         >
           View My Work

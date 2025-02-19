@@ -1,6 +1,7 @@
 "use client";
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
+import Image from "next/image";
 import { MoonIcon, SunIcon } from "@heroicons/react/24/solid";
 
 export default function Header() {
@@ -24,15 +25,23 @@ export default function Header() {
   return (
     <header className="fixed top-0 left-0 w-full px-6 md:px-16 py-4 flex justify-between items-center 
       bg-white/80 dark:bg-gray-900/80 shadow-md backdrop-blur-md z-50 transition-all">
-      <motion.h1
+      
+      {/* Logo Image */}
+      <motion.div
         initial={{ opacity: 0, y: -10 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}
-        className="text-xl md:text-2xl font-bold text-gray-900 dark:text-white"
       >
-        hlmnhkl
-      </motion.h1>
+        <Image
+          src="/logo.svg" // Ensure logo.svg is inside the /public folder
+          alt="Logo"
+          width={120} // Adjust size as needed
+          height={40}
+          className="h-10 w-auto" // Adjust styling if necessary
+        />
+      </motion.div>
 
+      {/* Dark Mode Toggle Button */}
       <button
         onClick={toggleDarkMode}
         className="p-2 rounded-lg transition bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600"

@@ -12,6 +12,10 @@
   --foreground: #ffffff;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   @apply bg-background text-foreground transition-colors duration-300;
 }
