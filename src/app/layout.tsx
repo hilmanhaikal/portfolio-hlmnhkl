@@ -6,6 +6,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Hilman Haikal | Frontend Developer",
   description: "Passionate frontend developer crafting modern, responsive, and user-friendly web experiences.",
+  metadataBase: new URL("https://hlmnhkl.netlify.app"),
   openGraph: {
     title: "Hilman Haikal | Frontend Developer",
     description: "Explore my modern and responsive web projects.",
