@@ -43,8 +43,8 @@ export default function About() {
             <strong>functional and visually appealing</strong>.
           </p>
           <p className="text-lg text-gray-600 dark:text-gray-400 mt-4 leading-relaxed">
-            {`I love`} <strong>learning new things</strong>, whether it's exploring new technologies or discovering creative ways to solve problems.  
-            Music is also a big part of my life—it keeps me inspired and motivated.
+            {`I love`} <strong>learning new things</strong>, {`whether it's exploring new technologies or discovering creative ways to solve problems.`} 
+            {`Music is also a big part of my life—it keeps me inspired and motivated.`}
           </p>
 
           {/* Play Button with Smooth Transition */}
