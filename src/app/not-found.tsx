@@ -23,8 +23,6 @@ export default function NotFound() {
         className="text-xl md:text-2xl mt-4"
       >
         Oops! Looks like you got lost in the void. 🚀  
-        <br />
-        (And no, {`I'm`} not uploading this code to my GitHub.)
       </motion.p>
 
       {/* Home Button */}
