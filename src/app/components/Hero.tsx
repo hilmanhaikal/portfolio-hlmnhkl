@@ -4,11 +4,10 @@ import WaveBackground from "./WaveBackground";
 
 export default function Hero() {
   // Smooth scroll function
-  const handleSmoothScroll = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
-    e.preventDefault();
-    const target = document.getElementById("projects");
-    if (target) {
-      target.scrollIntoView({ behavior: "smooth", block: "start" });
+  const scrollToProjects = () => {
+    const projectsSection = document.getElementById("projects");
+    if (projectsSection) {
+      projectsSection.scrollIntoView({ behavior: "smooth", block: "start" });
     }
   };
   
@@ -42,8 +41,7 @@ export default function Hero() {
       >
         {/* View My Work Button (Smooth Scroll) */}
         <a
-          href="#projects"
-          onClick={handleSmoothScroll} // Call smooth scroll function
+          onClick={scrollToProjects} // Call smooth scroll function
           className="px-6 py-3 !text-white bg-blue-600 dark:bg-blue-500 rounded-full text-lg font-semibold shadow-md hover:bg-blue-700 dark:hover:bg-blue-400 transition"
         >
           View My Work
