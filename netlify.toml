@@ -7,3 +7,9 @@ for = "/sitemap.xml"
 
 [headers.values]
 Access-Control-Allow-Origin = "*"
+
+[[redirects]]
+from = "/sitemap.xml"
+to = "/sitemap.xml"
+status = 200
+force = true
