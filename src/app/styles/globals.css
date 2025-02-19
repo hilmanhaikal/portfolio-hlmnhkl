@@ -74,4 +74,11 @@ a:hover {
   animation-duration: 14s;
 }
 
+.bg-gradient-to-r {
+    background: linear-gradient(to right, #1e3a8a, #9333ea);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+
 
