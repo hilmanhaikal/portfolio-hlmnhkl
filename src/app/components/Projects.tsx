@@ -32,6 +32,13 @@ const projects = [
       link: "https://github.com/hilmanhaikal/todo-app",
       tech: ["Next.js", "Tailwind CSS", "UI/UX Design"],
     },
+    {
+      title: "Next.js 14 Analytics Dashboard",
+      description: "A simple analytics dashboard designed for tracking user statistics. It features a interactive charts, and a clean, user-friendly interface for better data visualization.",
+      image: "/projects/dashboard.png",
+      link: "_blank",
+      tech: ["Next.js", "TypeScript", "Tailwind CSS"],
+    },
   ];
 
 export default function Projects() {
