@@ -36,7 +36,7 @@ const projects = [
       title: "Next.js 14 Analytics Dashboard",
       description: "A simple analytics dashboard designed for tracking user statistics. It features a interactive charts, and a clean, user-friendly interface for better data visualization.",
       image: "/projects/dashboard.png",
-      link: "_blank",
+      link: "https://github.com/hilmanhaikal/next-dashboard",
       tech: ["Next.js", "TypeScript", "Tailwind CSS"],
     },
   ];
