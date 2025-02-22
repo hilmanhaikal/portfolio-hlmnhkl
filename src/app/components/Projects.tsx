@@ -15,14 +15,14 @@ const projects = [
       title: "E-Commerce landing page",
       description: "A modern e-commerce landing page with a clean and minimalistic design.",
       image: "/projects/homepage.png",
-      link: "_blank",
+      link: "https://github.com/hilmanhaikal/Homepage",
       tech: ["HTML", "CSS", "UI/UX Design"],
     },
     {
       title: "Login template",
       description: "A simple login page template.",
       image: "/projects/login.png",
-      link: "_blank",
+      link: "https://github.com/hilmanhaikal/LoginPage",
       tech: ["HTML", "CSS", "UI/UX Design"],
     },
     {
