@@ -39,6 +39,13 @@ const projects = [
       link: "https://github.com/hilmanhaikal/next-dashboard",
       tech: ["Next.js", "TypeScript", "Tailwind CSS"],
     },
+    {
+      title: "Business Website",
+      description: "A modern business website template with a clean and minimalistic design.",
+      image: "/projects/business.png",
+      link: "https://github.com/hilmanhaikal/next-business-demo",
+      tech: ["Next.js", "TypeScript", "Tailwind CSS"],
+    }
   ];
 
 export default function Projects() {
