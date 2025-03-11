@@ -36,9 +36,9 @@ export default function Hero() {
         transition={{ duration: 0.8, ease: "easeOut", delay: 0.4 }}
         className="mt-6 flex flex-col sm:flex-row gap-4"
       >
-        {/* View My Work Button (Smooth Scroll) */}
+        {/* View My Work Button */}
         <a
-          onClick={scrollToProjects} // Call smooth scroll function
+          onClick={scrollToProjects}
           className="px-6 py-3 !text-white bg-blue-600 dark:bg-blue-500 rounded-full text-lg font-semibold shadow-md hover:bg-blue-700 dark:hover:bg-blue-400 transition"
         >
           View My Work
@@ -46,7 +46,7 @@ export default function Hero() {
 
         {/* Download Resume Button */}
         <a
-          href="/RESUME_MUHAMMAD HILMAN HAIKAL.pdf" // Ensure the file is inside the public/ folder
+          href="/Muhammad_Hilman_Haikal_Resume.pdf" 
           download="Hilman_Haikal_Resume.pdf"
           className="px-6 py-3 bg-gray-200 dark:bg-gray-700 text-gray-900 dark:text-white rounded-full text-lg font-semibold shadow-md hover:bg-gray-300 dark:hover:bg-gray-600 transition"
         >
