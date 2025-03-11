@@ -8,15 +8,15 @@ const skills = [
   { icon: <FaHtml5 className="text-4xl text-orange-500" />, name: "HTML", level: "Experienced" },
   { icon: <FaCss3Alt className="text-4xl text-blue-500" />, name: "CSS", level: "Experienced" },
   { icon: <FaJs className="text-4xl text-yellow-500" />, name: "JavaScript", level: "Experienced" },
-  { icon: <FaReact className="text-4xl text-blue-400" />, name: "React", level: "Intermediate" },
-  { icon: <SiNextdotjs className="text-4xl text-gray-900 dark:text-white" />, name: "Next.js", level: "Intermediate" },
-  { icon: <SiTailwindcss className="text-4xl text-teal-400" />, name: "Tailwind CSS", level: "Experienced" },
-  { icon: <SiTypescript className="text-4xl text-green-500" />, name: "Typescript", level: "Intermediate" },
+  { icon: <FaReact className="text-4xl text-blue-400" />, name: "React", level: "Beginner" },
+  { icon: <SiNextdotjs className="text-4xl text-gray-900 dark:text-white" />, name: "Next.js", level: "Beginner" },
+  { icon: <SiTailwindcss className="text-4xl text-teal-400" />, name: "Tailwind CSS", level: "Beginner" },
+  { icon: <SiTypescript className="text-4xl text-green-500" />, name: "Typescript", level: "Beginner" },
   { icon: <SiMysql className="text-4xl text-blue-600" />, name: "MySQL", level: "Intermediate" },
   { icon: <SiFirebase className="text-4xl text-orange-400" />, name: "Firebase", level: "Intermediate" },
   { icon: <FaGitAlt className="text-4xl text-red-500" />, name: "Git", level: "Experienced" },
-  { icon: <FaVuejs className="text-4xl text-green-400" />, name: "Vue.js", level: "Intermediate" },
-  { icon: <SiFlutter className="text-4xl text-blue-500" />, name: "Flutter", level: "Intermediate" },
+  { icon: <FaVuejs className="text-4xl text-green-400" />, name: "Vue.js", level: "Beginner" },
+  { icon: <SiFlutter className="text-4xl text-blue-500" />, name: "Flutter", level: "Beginner" },
 ];
 
 export default function Skills() {
